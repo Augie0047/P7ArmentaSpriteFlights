@@ -6,7 +6,7 @@ public class Scripts : MonoBehaviour
     public float minSize = 0.5f;
     public float maxSize = 2.0f;
     Rigidbody2D rb;
-    public float minSpeed = 50f;
+    public float minSpeed = 100f;
     public float maxSpeed = 150f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
