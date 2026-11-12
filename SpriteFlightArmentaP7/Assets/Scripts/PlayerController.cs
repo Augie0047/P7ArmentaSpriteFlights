@@ -48,11 +48,11 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(direction * thrustForce);
 
         }
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        if (Mouse.current.leftButton.wasPressedThisFrame) 
          {
             boosterFlame.SetActive(true);
          }
-        else if (Mouse.current.leftButton.wasReleasedThisFrame)
+        else if (Mouse.current.leftButton.wasReleasedThisFrame) 
           { 
             boosterFlame.SetActive(false);
           }
