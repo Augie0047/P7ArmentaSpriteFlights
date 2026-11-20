@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
             Vector2 direction = (mousePos - transform.position).normalized;
 
             // Move player in direction of mouse
-            transform.right = direction;
+            transform.up = direction;
             rb.AddForce(direction * thrustForce);
 
         }
